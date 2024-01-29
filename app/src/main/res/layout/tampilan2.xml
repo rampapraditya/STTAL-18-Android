@@ -52,8 +52,16 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:id="@+id/btn8"
         android:text="Button 8"
         android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Button 9"
+        android:layout_above="@id/btn8"
+        android:layout_toLeftOf="@id/btn8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
