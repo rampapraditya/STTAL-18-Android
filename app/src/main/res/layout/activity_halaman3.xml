@@ -3,12 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Halaman2Activity">
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/JudulHalaman2"
-        android:text="Halaman 2"
+        android:text="Halaman 3"
         android:textSize="30sp"
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
@@ -17,21 +16,14 @@
 
     <Button
         android:id="@+id/btn2"
-        android:text="Pergi ke halaman 3"
+        android:text="Pergi ke halaman 2"
         android:layout_below="@id/JudulHalaman2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-    <Button
-        android:id="@+id/btn2Kembali"
-        android:text="Pergi ke halaman 1"
-        android:layout_below="@id/btn2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+
 
 
 </RelativeLayout>
