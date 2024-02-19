@@ -15,10 +15,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+    <TextView
+        android:id="@+id/input"
+        android:layout_below="@id/JudulHalaman2"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <Button
         android:id="@+id/btn2"
         android:text="Pergi ke halaman 3"
-        android:layout_below="@id/JudulHalaman2"
+        android:layout_below="@id/input"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30sp"
         android:layout_width="wrap_content"
