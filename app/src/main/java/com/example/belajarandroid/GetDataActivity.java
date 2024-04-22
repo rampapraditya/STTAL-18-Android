@@ -56,4 +56,26 @@ public class GetDataActivity extends AppCompatActivity implements View.OnClickLi
         };
         Volley.newRequestQueue(GetDataActivity.this).add(stringRequest);
     }
+
+
+    public void codePHP(){
+
+//        cetakdata();
+//
+//        function cetakdata(){
+//
+//            $koneksi = mysqli_connect("localhost", "root", "", "wasrik");
+//
+//            $result = array();
+//
+//            $query = mysqli_query($koneksi, "select * from korps");
+//            while ($row = mysqli_fetch_array($query)) {
+//                array_push($result, array(
+//                                'kode' => $row['idkorps'],
+//                        'namakorp' => $row['nama_korps'],
+//		));
+//            }
+//            echo json_encode(array("result" => $result));
+//        }
+    }
 }
