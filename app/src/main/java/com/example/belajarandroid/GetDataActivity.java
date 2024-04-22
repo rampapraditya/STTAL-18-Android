@@ -31,7 +31,7 @@ public class GetDataActivity extends AppCompatActivity implements View.OnClickLi
     @Override
     public void onClick(View v) {
         if(v == btnGetData){
-            load_data("https://senjata.d3informatika-sttal.com/ws/loadpengajuan");
+            load_data("http://172.16.59.74/android18/");
         }
     }
 
